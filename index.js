@@ -98,8 +98,8 @@ function getRandomElement(array) {
 
 // Generate random interval between 10 minutes and 3 hours (in milliseconds)
 function getRandomInterval() {
-  const MIN_INTERVAL = 10 * 60 * 1000; // 10 minutes
-  const MAX_INTERVAL = 3 * 60 * 60 * 1000; // 3 hours
+  const MIN_INTERVAL = 12 * 60 * 60 * 1000; // 10 minutes
+  const MAX_INTERVAL = 18 * 60 * 60 * 1000; // 3 hours
   return (
     Math.floor(Math.random() * (MAX_INTERVAL - MIN_INTERVAL + 1)) + MIN_INTERVAL
   );
